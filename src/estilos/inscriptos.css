@@ -1,0 +1,88 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+html{
+    height: 100%;
+}
+
+body{ /* muy importante esos valores para que funque en el celu*/
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    background: #ffffff;
+    border-radius: 10px;
+
+
+}
+button{
+    margin: 5px;
+ }
+ input btn-primary{
+     margin: 5px;
+     width:  150px;
+ }
+ #campo {
+     margin: 5px;
+     width:  300px;
+     font-size: 25px;
+text-align:center;
+border-radius: 25px;
+border: 1px solid color(srgb red rgb(25, 202, 25) blue);
+ }
+ 
+ .camara{
+     grid-area: camara;
+     min-height: 320px;
+     margin-bottom: 5px;
+ }
+ .devuelvePresentes{
+     grid-area: devuelvePresentes;
+     background-color: rgb(130, 133, 127);
+     
+ }
+ 
+ .footer{
+    grid-area: footer;
+   
+;
+}
+ .grid-container{
+     display: grid;
+     gap: 5px;
+ background-color: white;
+     grid-template: 
+       "datosTotales" 
+    "capturaPresentes"
+    "camara"
+    "devuelvePresentes "
+    "footer"
+ 
+     ;
+ }
+ 
+ 
+ 
+ 
+.grid-container >*{
+    box-shadow: -1px 1px 7px 0x rgba(2, 0, 0, 0.75);
+    border-radius: 9px;
+    padding: 10px;
+    text-align: center;
+  
+}
+.datosTotales{
+    grid-area: datosTotales;
+    background-color: #85aedd;
+
+}
+.capturaPresentes{
+    grid-area: capturaPresentes;
+    background-color: #afd6af;
+
+}
+tr:hover {
+    color: #1717FF;
+    cursor: pointer;
+  }

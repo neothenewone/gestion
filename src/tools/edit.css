@@ -1,0 +1,123 @@
+.form__container_edit{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+  
+    display: block;
+}
+.Boton_Grande{
+  display: block;
+  position: inherit;
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+ 
+  align-items: left;
+
+}
+.Boton_Grande_Nuevo{
+  height: 200px;
+}
+.Boton_Grande_Existente{
+  height: 200px;
+  width: 150px;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 15px;
+
+}
+
+
+.contenedor_boton_edit{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+  
+    display: block;
+}
+.botton_Volver{
+    text-align: center;
+    width: 90%;
+    background:#0a1841;
+    border: none;
+    padding: 12px;
+    color: #e3e5e9;
+
+    border-radius: 20px;
+    font-size: 16px;
+}
+.botton_Volver:hover{
+    
+    background:  #291f88;
+    
+    color: #e3e5e9;
+   
+}
+.botton_Imprime{
+    text-align: center;
+    width: 12.0rem;
+    background: #0a1841;
+    border: none;
+    padding: 12px;
+    color: #e3e5e9;
+    margin: 3px 0;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.botton_Imprime:hover{
+   
+    background: #5fb62d;
+    border: none;
+    color: white;
+
+}
+.edit__title{
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+    margin-top: -45px;
+    color: #0a2047e5;
+}
+.edit__sub-title {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 0.5em;
+    margin-top: 10px;
+  }
+.botton_Edit{
+    
+        text-align: center;
+        width: 9.0rem;
+        background: #0a1841;
+        border: none;
+        padding: 12px;
+        color: #e3e5e9;
+        margin: 3px 0;
+        border-radius: 20px;
+        font-size: 16px;
+}
+.botton_Edit:hover{
+    
+    
+    background: #e22c0c;
+    color:white
+
+   
+}
+.edit__footer{
+  text-align: center;
+  font-size: smaller;
+  height: auto;
+  width: 100%;
+  margin-top: 1%;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+
+  
